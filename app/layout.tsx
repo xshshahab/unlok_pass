@@ -2,6 +2,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({
   children,
@@ -19,6 +20,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Navbar />
+            <Toaster position="bottom-right" reverseOrder={false} />
             {children}
           </ThemeProvider>
         </body>

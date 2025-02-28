@@ -24,7 +24,7 @@ export default function AddPassword() {
   };
 
   return (
-    <Card className="p-6 shadow-lg w-full max-w-md mx-auto min-h-[380px] flex flex-col justify-center">
+    <Card className="p-2 shadow-lg w-full max-w-md mx-auto min-h-[380px] flex flex-col justify-center">
       <CardHeader className="text-xl font-semibold text-center mb-4">
         Save Website Login
       </CardHeader>
